@@ -4,6 +4,7 @@ import concurrency.ThreadDemo;
 import exceptions.Account;
 import exceptions.AccountException;
 import exceptions.ExceptionsDemo;
+import executors.ExecutorsDemo;
 import generics.GenericList;
 import lambdas.LambdasDemo;
 import streams.StreamsDemo;
@@ -15,12 +16,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        ThreadDemo.show();
-
+        ExecutorsDemo.show();
 
     }
-
-
 
     public static void ComparableAndComparatorExample(){
         List<Customer> customers = new ArrayList<>();
